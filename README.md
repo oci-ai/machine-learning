@@ -10,3 +10,6 @@ Collection of scripts and artifacts for different aspects of machine learning an
 
 ## Ensemble
 - [Scikit-Learn RandomForestRegressor for Wine Quality](ensemble/sklearn-random-forest-regressor-wine-quality.py)
+
+## Natural Language Processing
+- [Practical Text Classification With Python and Keras](natural-language-processing/Practical Text Classification With Python and Keras-checkpoint.ipynb)
