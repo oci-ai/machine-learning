@@ -3,3 +3,6 @@ Collection of scripts and artifacts for different aspects of machine learning an
 
 ## Data Preparation
 - [A Pre-Machine Learning Data Checklist](data-preparation/a-pre-ml-checklist.md)
+
+## Classification
+- [Simple Scikit-Learn DecisionTreeClassifier](classification/simple-sklearn-decision-tree-classifier.py)
