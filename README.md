@@ -6,3 +6,6 @@ Collection of scripts and artifacts for different aspects of machine learning an
 
 ## Classification
 - [Simple Scikit-Learn DecisionTreeClassifier](classification/simple-sklearn-decision-tree-classifier.py)
+
+## Ensemble
+- [Scikit-Learn RandomForestRegressor for Wine Quality](ensemble/sklearn-random-forest-regressor-wine-quality.py)
