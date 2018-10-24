@@ -39,44 +39,49 @@ You’ll need to know the following terms to understand this document:
 **Training data:** A set of examples containing example input-output pairs used to train an ML model
 
 ## Content
+
 1. Essential checks
 
-  1.1. General
-  - [ ] 1. Does the data include information that can predict the target?
-  - [ ] 2. Does the granularity of training and prediction match?
-  - [ ] 3. Do you already have labeled data (that is, training examples)?
-  - [ ] 4. Is your data correct/accurate?
-  - [ ] 5. Do you have enough data?
-  - [ ] 6. Is the data easily accessible by the team and machines performing the ML?
-  - [ ] 7. Can you read the data fast enough?
-  - [ ] 8. Do you have documentation for each field of data?
-  - [ ] 9. Are the missing values a small percentage of the fields of interest?
+1.1. General
 
-  1.2. Forecasting
-  - [ ] 10. If your data is periodic, do you have data for 3 ✕ period?
-  - [ ] 11. If you want to forecast n periods in advance, do you have n + 2 periods of data?
-  - [ ] 12. Do you know the timestamp at which each data value was obtained or updated?
+- [ ] 1. Does the data include information that can predict the target?
+- [ ] 2. Does the granularity of training and prediction match?
+- [ ] 3. Do you already have labeled data (that is, training examples)?
+- [ ] 4. Is your data correct/accurate?
+- [ ] 5. Do you have enough data?
+- [ ] 6. Is the data easily accessible by the team and machines performing the ML?
+- [ ] 7. Can you read the data fast enough?
+- [ ] 8. Do you have documentation for each field of data?
+- [ ] 9. Are the missing values a small percentage of the fields of interest?
+
+1.2. Forecasting
+
+- [ ] 10. If your data is periodic, do you have data for 3 ✕ period?
+- [ ] 11. If you want to forecast n periods in advance, do you have n + 2 periods of data?
+- [ ] 12. Do you know the timestamp at which each data value was obtained or updated?
 
 2. Additional checks
-  - [ ] 13. Is your data unbiased?
-  - [ ] 14. If there are missing values, do you know the causes?
-  - [ ] 15. If there are missing values, do they occur at random?
-  - [ ] 16. For each field (feature or target), does the data have the same unit?
-  - [ ] 17. For each field (feature or target), is the meaning of the data consistent?
-  - [ ] 18. Is the same value recorded in the same way everywhere?
+
+- [ ] 13. Is your data unbiased?
+- [ ] 14. If there are missing values, do you know the causes?
+- [ ] 15. If there are missing values, do they occur at random?
+- [ ] 16. For each field (feature or target), does the data have the same unit?
+- [ ] 17. For each field (feature or target), is the meaning of the data consistent?
+- [ ] 18. Is the same value recorded in the same way everywhere?
 
 3. Preparing the data
-  - [ ] 19. Integrate data from diverse input sources.
-  - [ ] 20. If your data is scattered, identify and consolidate it.
-  - [ ] 21. Identify and impute missing values.
-  - [ ] 22. Remove all sources of noise from your data.
-  - [ ] 23. Create new features that improve predicting the target.
-  - [ ] 24. Look for new sources of information to complement your data.
-  - [ ] 25. Identify and remove all sources of data leakage.
-  - [ ] 26. Integrate all the features of an instance into one object.
-  - [ ] 27. Convert data to formats that can be read fast for training the ML model.
-  - [ ] 28. For a forecasting problem, build a pipeline to easily re-create a snapshot of the data at an arbitrary time in the past.
-  - [ ] 29. Implement data quality tests.
+
+- [ ] 19. Integrate data from diverse input sources.
+- [ ] 20. If your data is scattered, identify and consolidate it.
+- [ ] 21. Identify and impute missing values.
+- [ ] 22. Remove all sources of noise from your data.
+- [ ] 23. Create new features that improve predicting the target.
+- [ ] 24. Look for new sources of information to complement your data.
+- [ ] 25. Identify and remove all sources of data leakage.
+- [ ] 26. Integrate all the features of an instance into one object.
+- [ ] 27. Convert data to formats that can be read fast for training the ML model.
+- [ ] 28. For a forecasting problem, build a pipeline to easily re-create a snapshot of the data at an arbitrary time in the past.
+- [ ] 29. Implement data quality tests.
 
 
 ## 1. Essential checks
