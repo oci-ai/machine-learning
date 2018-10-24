@@ -40,7 +40,8 @@ You’ll need to know the following terms to understand this document:
 
 ## Content
 
-1. Essential checks
+
+#1. Essential checks
 
 1.1. General
 
@@ -60,7 +61,7 @@ You’ll need to know the following terms to understand this document:
 - [ ] 11. If you want to forecast n periods in advance, do you have n + 2 periods of data?
 - [ ] 12. Do you know the timestamp at which each data value was obtained or updated?
 
-2. Additional checks
+#2. Additional checks
 
 - [ ] 13. Is your data unbiased?
 - [ ] 14. If there are missing values, do you know the causes?
@@ -69,7 +70,7 @@ You’ll need to know the following terms to understand this document:
 - [ ] 17. For each field (feature or target), is the meaning of the data consistent?
 - [ ] 18. Is the same value recorded in the same way everywhere?
 
-3. Preparing the data
+#3. Preparing the data
 
 - [ ] 19. Integrate data from diverse input sources.
 - [ ] 20. If your data is scattered, identify and consolidate it.
