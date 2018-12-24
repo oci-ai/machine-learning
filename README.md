@@ -15,4 +15,4 @@ Collection of scripts and artifacts for different aspects of machine learning an
 - [Practical Text Classification With Python and Keras](natural-language-processing/Practical-Text-Classification-With-Python-and-Keras.ipynb)
 
 ## Visualization
-- [Practical Text Classification With Python and Keras](visualization)
+- [Fundamentals of Data Visualization](visualization)
