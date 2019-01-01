@@ -7,3 +7,4 @@ If you are a scientist, an analyst, a consultant, or anybody else who has to pre
 ## Python visualization libraries
 ### Seaborn
 * [Visualizing the distribution of a dataset](seaborn/Visualizing-the-distribution-of-a-dataset.ipynb)
+* [Visualizing statistical relationships](seaborn/Visualizing-statistical-relationships.ipynb)
